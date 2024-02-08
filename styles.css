@@ -18,6 +18,7 @@ body {
 h1 {
     text-shadow: 2px 0 #232931;
     font-size: 3rem;
+    padding-top: 5%;
 }
 
 hr {
