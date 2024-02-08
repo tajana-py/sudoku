@@ -127,7 +127,7 @@ hr {
     #board:after {
         content: "";
         display: block;
-        padding-bottom: 80%;
+        padding-bottom: 110%;
     }
 
     .tile {
@@ -139,7 +139,7 @@ hr {
     .tile:after {
         content: "";
         display: block;
-        padding-bottom: 80%;
+        padding-bottom: 110%;
     }
 
     .number {
@@ -150,11 +150,11 @@ hr {
     .number:after {
         content: "";
         display: block;
-        padding-bottom: 80%;
+        padding-bottom: 110%;
     }
 
     #digits {
-        width: 90%;
+        width: 80%;
         border: 0.22%;
     }
 
