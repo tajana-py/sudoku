@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #fffbda;
-    
+    color: #fffbda;
 }
 
 .content {
@@ -24,18 +24,15 @@ body {
 
 
 h1 {
-    color: #fffbda;
     text-shadow: 2px 0 #232931;
     font-size: 3rem;
 }
 
 hr {
-    color: #fffbda;
     width: 40%
 }
 
 #errors {
-    color: #fffbda;
     text-shadow: 1px 0 #232931;
     margin-top: 2%;
 }
