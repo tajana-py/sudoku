@@ -130,6 +130,18 @@ hr {
         padding-bottom: 100%;
     }
 
+    .tile {
+        width: 10.67%;
+        border: 0.22%;
+        font-size: 50%;
+    }
+
+    .tile:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+
     .number {
         width: 9.78%;
         margin: 0.44%;
