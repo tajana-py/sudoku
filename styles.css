@@ -118,6 +118,43 @@ hr {
     background-color: gray;
 }
 
+
+@media only screen and (max-width: 1000px) {
+    #board {
+        width: 90%;
+        border: 0.22%;
+    }
+    #board:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+
+    .number {
+        width: 9.78%;
+        margin: 0.44%;
+        font-size: 50%;
+    }
+    .number:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+
+    #digits {
+        width: 90%;
+        border: 0.22%;
+    }
+
+    #digits:after {
+        content: "";
+        display: block;
+        padding-bottom: 11.11%;
+    }
+
+}
+
+
 footer {
     margin: 5% auto;
     text-shadow: 1px 0 #232931;
