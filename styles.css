@@ -18,7 +18,6 @@ body {
 h1 {
     text-shadow: 2px 0 #232931;
     font-size: 3rem;
-    padding-top: 5%;
 }
 
 hr {
@@ -111,8 +110,16 @@ hr {
     background-color: gray;
 }
 
+@media only screen and (max-width: 1200px) {
+    h1 {
+        padding-top: 10%;
+    }
 
 @media only screen and (max-width: 800px) {
+    h1 {
+        padding-top: 5%;
+    }
+    
     #board {
         width: 360px;
         height: 360px;
