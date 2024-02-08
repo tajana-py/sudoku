@@ -121,47 +121,25 @@ hr {
 
 @media only screen and (max-width: 1000px) {
     #board {
-        width: 80%;
-        border: 0.22%;
-    }
-    #board:after {
-        content: "";
-        display: block;
-        padding-bottom: 110%;
+        width: 360px;
+        height: 360px;
     }
 
     .tile {
-        width: 10.67%;
-        border: 0.22%;
+        width: 38px;
+        height: 38px;
         font-size: 1rem;
-    }
-
-    .tile:after {
-        content: "";
-        display: block;
-        padding-bottom: 110%;
-    }
-
-    .number {
-        width: 9.78%;
-        margin: 0.44%;
-        font-size: 1rem;
-    }
-    .number:after {
-        content: "";
-        display: block;
-        padding-bottom: 110%;
     }
 
     #digits {
-        width: 80%;
-        border: 0.22%;
+        width: 360px;
+        height: 40px;
     }
-
-    #digits:after {
-        content: "";
-        display: block;
-        padding-bottom: 11.11%;
+    
+    .number {
+        height: 34px;
+        width: 34px;
+        font-size: 1rem;
     }
 
 }
