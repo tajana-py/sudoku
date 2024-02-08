@@ -1,11 +1,27 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 body {
-    background-color: rgb(111, 97, 125);
-    background-image: url("./images/background-img-blur-dark.png") no-repeat center fixed;     
+    background-image: url("./images/background-img-blur-dark.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
-    color: #fffbda;
+    background-color: #fffbda;
+    
+}
+
+.content {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
 
 h1 {
     text-shadow: 2px 0 #232931;
