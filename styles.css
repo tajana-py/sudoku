@@ -133,7 +133,7 @@ hr {
     .tile {
         width: 10.67%;
         border: 0.22%;
-        font-size: 50%;
+        font-size: 1rem;
     }
 
     .tile:after {
@@ -145,7 +145,7 @@ hr {
     .number {
         width: 9.78%;
         margin: 0.44%;
-        font-size: 50%;
+        font-size: 1rem;
     }
     .number:after {
         content: "";
